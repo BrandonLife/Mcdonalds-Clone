@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  border-bottom: 2px solid gray;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero-img-left img {
+  width: 60px;
+}
+
+.header-top-left {
+  flex-basis: 30%;
+  justify-content: space-between;
+}
+.header-top-left ul {
+  display: flex;
+  list-style: none;
+}
+.header-top-right {
+  flex-basis: 50%;
+}
+.header-top-right {
+  display: flex;
+}
+.header-bottom ul {
+  display: flex;
+  flex-basis: 100%;
+  list-style: none;
+}
